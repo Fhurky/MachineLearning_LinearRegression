@@ -11,6 +11,8 @@ from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 import pandas as pd
 
+
+
 # Load the dataset and select the relevant columns
 data = pd.read_csv("Student_Performance.csv")
 data = data[['Previous Scores', 'Performance Index']]
